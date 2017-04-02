@@ -1,0 +1,134 @@
+/* Reset Styles */
+.start {
+    height:100vh;
+    background-color: #ffffff
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+
+body{
+	background-color: #0493bd;
+}
+
+#wrapper{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Floats button in the middle */
+section{
+	margin: 50px 0;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* The button */
+#button-blue{
+	float:left;
+	width: 100%;
+	max-width:500px;
+	border: white solid 4px;
+	cursor: pointer;
+	background-color: #0493bd;
+	margin-top: -4px;
+	color: white;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: .1em;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	font-weight: 500;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Change text color & background opacity on hover*/
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+
+/* The white hover effect */
+.ease {
+	width: 0px;
+	height: 70px;
+	background-color: white;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+/* Make visable when hover */
+.btn-container:hover .ease{
+	width: 100%;
+	max-width: 500px;
+	background-color: white;
+	border: 0;
+}
+
+.paragraph {
+    width: 100%;
+	max-width:1000px;
+	margin-top: 160;
+	color: white;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	letter-spacing: .1em;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	font-weight: 500;
+}
+.paragraphsmall {
+    width: 100%;
+	max-width:500px;
+	margin-top: 10px;
+	color: white;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: .1em;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-weight: 500;
+}
+.pretty {
+    width: 100%;
+	max-width:500px;
+	margin-top: -4px;
+	color: white;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	letter-spacing: .1em;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-weight: 500;
+}
+.head {
+    margin-top: -20
+}
+.youtube {
+    height:95vh;
+    width:100vw;
+}
+.main {
+    height:75vh;
+    width:100vw;      
+}
+.chev {
+    width: 30px;
+    margin-top: 5
+}
